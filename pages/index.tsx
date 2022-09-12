@@ -5,17 +5,18 @@ const Home: NextPage = () => {
     <div className="main_container">
       <div className="sub_container">
         <div className="logo">
-          <img src="Logo.png" className="img4-responsive"></img>
+          <img src="Logo.png" className="img_logo"></img>
         </div>
         <div className="title">
           <h1>H.PETER</h1>
+          <img src="Linea.png" className="img_line"></img>
           <h2>PUROS DE EDICIÓN PERSONAL</h2>
         </div>
         <div className="introduction">
           <div className="photo_one">
-            <img src="ImageIntroduction.png" className="ImageIntroduction" />
+            <img src="ImageIntroduction.png" className="image_introduction" />
           </div>
-          <div className="paragraph">
+          <div className="paragraph_introduction">
             <p>
               De manufactura y mezcla propia, los puros H.PETER han sido
               modelados como un homenaje a la cultura del tabaco.
@@ -28,12 +29,12 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="text">
-          <div className="text-center">
+          <div className="text_center">
             <div className="subtitle">
               <h1>EDICIÓN LIGA CUBANA</h1>
-              <img src="Cigarrette.png" className="img-responsive"></img>
+              <img src="cigarrette.png" className="img_cigarrette"></img>
             </div>
-            <div className="paragraph2">
+            <div className="paragraph_boddy">
               <p>
                 Este puro y su liga destaca la Tradición que viene de la Cuba de
                 mediados del siglo XVII, contiene hoja cultivada por auténticos
@@ -52,16 +53,16 @@ const Home: NextPage = () => {
               </p>
             </div>
             <div className="logos">
-              <img src="FortalezaBaja.png" className="img2-responsive"></img>
+              <img src="FortalezaBaja.png" className="img_cubana"></img>
             </div>
           </div>
           <div className="separator"></div>
-          <div className="text-center">
+          <div className="text_center">
             <div className="subtitle">
               <h2>EDICIÓN BW</h2>
-              <img src="Cigarrette.png" className="img-responsive"></img>
+              <img src="cigarrette.png" className="img_cigarrette"></img>
             </div>
-            <div className="paragraph2">
+            <div className="paragraph_boddy">
               <p>
                 En un homenaje y culto a la tradición del Tabaco, que involucra
                 a cientos de personas que están detrás de la elaboración
@@ -80,15 +81,15 @@ const Home: NextPage = () => {
               </p>
             </div>
             <div className="logos">
-              <img src="FortalezaMedia.png" className="img2-responsive"></img>
+              <img src="FortalezaMedia.png" className="img_cubana"></img>
             </div>
           </div>
         </div>
         <div className="information">
-          <div className="information-header">
-            <img src="Information.png" className="img3-responsive"></img>
+          <div className="information_header">
+            <img src="Information.png" className="img_header"></img>
           </div>
-          <div className="information-body">
+          <div className="information_boddy">
             <h1>WWW.HABANOSESPECIALIZADOS.COM</h1>
           </div>
         </div>
