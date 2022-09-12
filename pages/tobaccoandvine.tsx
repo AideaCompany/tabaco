@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 
-const Home: NextPage = () => {
+const tobaccoandvine: NextPage = () => {
   return (
     <div className="main_container">
       <div className="sub_container">
@@ -8,23 +8,24 @@ const Home: NextPage = () => {
           <img src="Logo.png" className="img_logo"></img>
         </div>
         <div className="title">
-          <h1>H.PETER</h1>
+          <h1>TABACO Y VINOS</h1>
           <img src="Linea.png" className="img_line"></img>
-          <h2>PUROS DE EDICIÓN PERSONAL</h2>
+          <h2>PUROS DE MARCA PROPIA</h2>
         </div>
         <div className="introduction">
           <div className="photo_one">
-            <img src="ImageIntroduction.png" className="image_introduction" />
+            <img src="Introductiontobacco.png" className="image_introduction" />
           </div>
           <div className="paragraph_introduction">
             <p>
-              De manufactura y mezcla propia, los puros H.PETER han sido
-              modelados como un homenaje a la cultura del tabaco.
+              La famosa casa guatemalteca, Tabacos y Vinos lanza su propia marca
+              de puros para consumo de sus clientes y visitantes.
             </p>
             <p>
-              Quien tenga el privilegio de fumar uno de los H.PETER encontrará
-              una mezcla única de hojas de tabaco, cuya selección especial para
-              Guatemala, distingue esta colección personal.
+              Con tabacos originados de Honduras y Nicaragua, resultan los puros
+              Tabacos y Vinos, con dos versiones de selección que complacerán a
+              quien deguste el resultado de estas mezclas especiales para la
+              marca.
             </p>
           </div>
         </div>
@@ -66,7 +67,7 @@ const Home: NextPage = () => {
               <p>
                 En un homenaje y culto a la tradición del Tabaco, que involucra
                 a cientos de personas que están detrás de la elaboración
-                artesanal de puros, nace la edición BW.
+                artesanal de puros, nace la edición BW
               </p>
               <p>
                 Esta es una mezcla creada a partir de hojas de tabaco de
@@ -98,4 +99,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default tobaccoandvine;
